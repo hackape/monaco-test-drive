@@ -10,19 +10,20 @@ module.exports = {
     extensions: ['.ts', '.tsx', '.js', '.jsx']
   },
   entry: {
-    app: "./src/index.js",
-    // Package each language's worker and give these filenames in `getWorkerUrl`
-    // "editor.worker": "monaco-editor/esm/vs/editor/editor.worker.js",
-    // "json.worker": "monaco-editor/esm/vs/language/json/json.worker",
-    // "css.worker": "monaco-editor/esm/vs/language/css/css.worker",
-    // "html.worker": "monaco-editor/esm/vs/language/html/html.worker",
-    // "ts.worker": "monaco-editor/esm/vs/language/typescript/ts.worker",
-    // "fe.worker": "./src/language/fe/fe.worker",
+    app: "./src/main.ts",
+    "editor.worker": "monaco-editor/esm/vs/editor/editor.worker.js",
   },
   output: {
     globalObject: "self",
     filename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist")
+  },
+  target: 'web',
+  node: {
+      fs: 'empty',
+      child_process: 'empty',
+      net: 'empty',
+      crypto: 'empty'
   },
   module: {
     rules: [

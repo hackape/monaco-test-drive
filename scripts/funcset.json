@@ -1,0 +1,4832 @@
+[
+  {
+    "name": "isnull",
+    "signatures": [
+      {
+        "label": "isnull(Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "year",
+    "signatures": [
+      {
+        "label": "year(Date)",
+        "parameters": [
+          {
+            "label": "Date"
+          }
+        ]
+      },
+      {
+        "label": "year(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "year(DateTime)",
+        "parameters": [
+          {
+            "label": "DateTime"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "weekday",
+    "signatures": [
+      {
+        "label": "weekday(Date)",
+        "parameters": [
+          {
+            "label": "Date"
+          }
+        ]
+      },
+      {
+        "label": "weekday(DateTime)",
+        "parameters": [
+          {
+            "label": "DateTime"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "if_not_enough",
+    "signatures": [
+      {
+        "label": "if_not_enough(List, Integer, Object)",
+        "parameters": [
+          {
+            "label": "List"
+          },
+          {
+            "label": "Integer"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "if_not_enough(FeIterator, Integer, Object)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "Integer"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "eliminatechar",
+    "signatures": [
+      {
+        "label": "eliminatechar(List, String)",
+        "parameters": [
+          {
+            "label": "List"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "eliminatechar(String, String)",
+        "parameters": [
+          {
+            "label": "String"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "eliminatechar(FeIterator, String)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "output",
+    "signatures": [
+      {
+        "label": "output(Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "output(Object, String, Integer)",
+        "parameters": [
+          {
+            "label": "Object"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "quantile",
+    "signatures": [
+      {
+        "label": "quantile(List, Integer)",
+        "parameters": [
+          {
+            "label": "List"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "quantile(FeIterator, Integer)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "if",
+    "signatures": [
+      {
+        "label": "if(Boolean, Object, Object)",
+        "parameters": [
+          {
+            "label": "Boolean"
+          },
+          {
+            "label": "Object"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "std",
+    "signatures": [
+      {
+        "label": "std(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "std(Number)",
+        "parameters": [
+          {
+            "label": "Number"
+          }
+        ]
+      },
+      {
+        "label": "std(FeIterator)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "mapping",
+    "signatures": [
+      {
+        "label": "mapping(Long, String)",
+        "parameters": [
+          {
+            "label": "Long"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "mapping(List, String)",
+        "parameters": [
+          {
+            "label": "List"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "mapping(Short, String)",
+        "parameters": [
+          {
+            "label": "Short"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "mapping(Float, String)",
+        "parameters": [
+          {
+            "label": "Float"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "mapping(Double, String)",
+        "parameters": [
+          {
+            "label": "Double"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "mapping(String, String)",
+        "parameters": [
+          {
+            "label": "String"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "mapping(Integer, String)",
+        "parameters": [
+          {
+            "label": "Integer"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "mapping(DateTime, String)",
+        "parameters": [
+          {
+            "label": "DateTime"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "mapping(FeIterator, String)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "splitbykey",
+    "signatures": [
+      {
+        "label": "splitbykey(String, String, String)",
+        "parameters": [
+          {
+            "label": "String"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "splitbykey(FeIterator, String, String)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "var",
+    "signatures": [
+      {
+        "label": "var(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "var(FeIterator)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "double",
+    "signatures": [
+      {
+        "label": "double(Map)",
+        "parameters": [
+          {
+            "label": "Map"
+          }
+        ]
+      },
+      {
+        "label": "double(Date)",
+        "parameters": [
+          {
+            "label": "Date"
+          }
+        ]
+      },
+      {
+        "label": "double(Date)",
+        "parameters": [
+          {
+            "label": "Date"
+          }
+        ]
+      },
+      {
+        "label": "double(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "double(String)",
+        "parameters": [
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "double(Number)",
+        "parameters": [
+          {
+            "label": "Number"
+          }
+        ]
+      },
+      {
+        "label": "double(Number)",
+        "parameters": [
+          {
+            "label": "Number"
+          }
+        ]
+      },
+      {
+        "label": "double(String)",
+        "parameters": [
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "double(DateTime)",
+        "parameters": [
+          {
+            "label": "DateTime"
+          }
+        ]
+      },
+      {
+        "label": "double(DateTime)",
+        "parameters": [
+          {
+            "label": "DateTime"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "last_of_window",
+    "signatures": [
+      {
+        "label": "last_of_window(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "last_of_window(Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "last_of_window(FeIterator)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          }
+        ]
+      },
+      {
+        "label": "last_of_window(Object, Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "get_distance",
+    "signatures": [
+      {
+        "label": "get_distance(Object, Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "get_distance(Object, Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "get_distance(String, String)",
+        "parameters": [
+          {
+            "label": "String"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "get_distance(RegionAddress, RegionAddress)",
+        "parameters": [
+          {
+            "label": "RegionAddress"
+          },
+          {
+            "label": "RegionAddress"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "get_address",
+    "signatures": [
+      {
+        "label": "get_address(String)",
+        "parameters": [
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "get_address(Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "get_address(Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "get_address(FeIterator)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          }
+        ]
+      },
+      {
+        "label": "get_address(Object, Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "substr",
+    "signatures": [
+      {
+        "label": "substr(String, Integer)",
+        "parameters": [
+          {
+            "label": "String"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "substr(FeIterator, Integer)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "substr(String, Integer, Integer)",
+        "parameters": [
+          {
+            "label": "String"
+          },
+          {
+            "label": "Integer"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "substr(FeIterator, Integer, Integer)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "Integer"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "dayofyear",
+    "signatures": [
+      {
+        "label": "dayofyear(Date)",
+        "parameters": [
+          {
+            "label": "Date"
+          }
+        ]
+      },
+      {
+        "label": "dayofyear(DateTime)",
+        "parameters": [
+          {
+            "label": "DateTime"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "current_date",
+    "signatures": []
+  },
+  {
+    "name": "slide",
+    "signatures": [
+      {
+        "label": "slide(List, TransformForMoreArgs)",
+        "parameters": [
+          {
+            "label": "List"
+          },
+          {
+            "label": "TransformForMoreArgs"
+          }
+        ]
+      },
+      {
+        "label": "slide(FeIterator, TransformForMoreArgs)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "TransformForMoreArgs"
+          }
+        ]
+      },
+      {
+        "label": "slide(List, TransformForMoreArgs, Integer)",
+        "parameters": [
+          {
+            "label": "List"
+          },
+          {
+            "label": "TransformForMoreArgs"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "slide(FeIterator, TransformForMoreArgs, Integer)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "TransformForMoreArgs"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "longint",
+    "signatures": [
+      {
+        "label": "longint(Map)",
+        "parameters": [
+          {
+            "label": "Map"
+          }
+        ]
+      },
+      {
+        "label": "longint(Date)",
+        "parameters": [
+          {
+            "label": "Date"
+          }
+        ]
+      },
+      {
+        "label": "longint(Date)",
+        "parameters": [
+          {
+            "label": "Date"
+          }
+        ]
+      },
+      {
+        "label": "longint(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "longint(String)",
+        "parameters": [
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "longint(Number)",
+        "parameters": [
+          {
+            "label": "Number"
+          }
+        ]
+      },
+      {
+        "label": "longint(String)",
+        "parameters": [
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "longint(Number)",
+        "parameters": [
+          {
+            "label": "Number"
+          }
+        ]
+      },
+      {
+        "label": "longint(DateTime)",
+        "parameters": [
+          {
+            "label": "DateTime"
+          }
+        ]
+      },
+      {
+        "label": "longint(DateTime)",
+        "parameters": [
+          {
+            "label": "DateTime"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "subtail",
+    "signatures": [
+      {
+        "label": "subtail(String, Integer, Integer)",
+        "parameters": [
+          {
+            "label": "String"
+          },
+          {
+            "label": "Integer"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "log",
+    "signatures": [
+      {
+        "label": "log(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "log(Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "log(Number)",
+        "parameters": [
+          {
+            "label": "Number"
+          }
+        ]
+      },
+      {
+        "label": "log(Object, Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "log(Number, Integer)",
+        "parameters": [
+          {
+            "label": "Number"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "log10",
+    "signatures": [
+      {
+        "label": "log10(Long)",
+        "parameters": [
+          {
+            "label": "Long"
+          }
+        ]
+      },
+      {
+        "label": "log10(Short)",
+        "parameters": [
+          {
+            "label": "Short"
+          }
+        ]
+      },
+      {
+        "label": "log10(Float)",
+        "parameters": [
+          {
+            "label": "Float"
+          }
+        ]
+      },
+      {
+        "label": "log10(Double)",
+        "parameters": [
+          {
+            "label": "Double"
+          }
+        ]
+      },
+      {
+        "label": "log10(String)",
+        "parameters": [
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "log10(Integer)",
+        "parameters": [
+          {
+            "label": "Integer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "range",
+    "signatures": [
+      {
+        "label": "range(Map, Integer, Integer)",
+        "parameters": [
+          {
+            "label": "Map"
+          },
+          {
+            "label": "Integer"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "range(List, Integer, Integer)",
+        "parameters": [
+          {
+            "label": "List"
+          },
+          {
+            "label": "Integer"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "range(TempWindow, Integer, Integer)",
+        "parameters": [
+          {
+            "label": "TempWindow"
+          },
+          {
+            "label": "Integer"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "range(FeIterator, Integer, Integer)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "Integer"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "get_speed",
+    "signatures": [
+      {
+        "label": "get_speed(List, List)",
+        "parameters": [
+          {
+            "label": "List"
+          },
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "get_speed(FeIterator, FeIterator)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "FeIterator"
+          }
+        ]
+      },
+      {
+        "label": "get_speed(RegionAddress, RegionAddress, Integer)",
+        "parameters": [
+          {
+            "label": "RegionAddress"
+          },
+          {
+            "label": "RegionAddress"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "sum",
+    "signatures": [
+      {
+        "label": "sum(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "sum(Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "sum(FeIterator)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          }
+        ]
+      },
+      {
+        "label": "sum(List, Number)",
+        "parameters": [
+          {
+            "label": "List"
+          },
+          {
+            "label": "Number"
+          }
+        ]
+      },
+      {
+        "label": "sum(Object, Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "sum(FeIterator, Number)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "Number"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "isnan",
+    "signatures": [
+      {
+        "label": "isnan(String)",
+        "parameters": [
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "isnan(Double)",
+        "parameters": [
+          {
+            "label": "Double"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "datediff",
+    "signatures": [
+      {
+        "label": "datediff(List, List)",
+        "parameters": [
+          {
+            "label": "List"
+          },
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "datediff(Date, Date)",
+        "parameters": [
+          {
+            "label": "Date"
+          },
+          {
+            "label": "Date"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "smallint",
+    "signatures": [
+      {
+        "label": "smallint(Map)",
+        "parameters": [
+          {
+            "label": "Map"
+          }
+        ]
+      },
+      {
+        "label": "smallint(Date)",
+        "parameters": [
+          {
+            "label": "Date"
+          }
+        ]
+      },
+      {
+        "label": "smallint(Date)",
+        "parameters": [
+          {
+            "label": "Date"
+          }
+        ]
+      },
+      {
+        "label": "smallint(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "smallint(String)",
+        "parameters": [
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "smallint(Number)",
+        "parameters": [
+          {
+            "label": "Number"
+          }
+        ]
+      },
+      {
+        "label": "smallint(Number)",
+        "parameters": [
+          {
+            "label": "Number"
+          }
+        ]
+      },
+      {
+        "label": "smallint(String)",
+        "parameters": [
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "smallint(DateTime)",
+        "parameters": [
+          {
+            "label": "DateTime"
+          }
+        ]
+      },
+      {
+        "label": "smallint(DateTime)",
+        "parameters": [
+          {
+            "label": "DateTime"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "min",
+    "signatures": [
+      {
+        "label": "min(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "min(FeIterator)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          }
+        ]
+      },
+      {
+        "label": "min(List, Number)",
+        "parameters": [
+          {
+            "label": "List"
+          },
+          {
+            "label": "Number"
+          }
+        ]
+      },
+      {
+        "label": "min(FeIterator, Number)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "Number"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "entropy",
+    "signatures": [
+      {
+        "label": "entropy(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "entropy(FeIterator)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "top",
+    "signatures": [
+      {
+        "label": "top(List, String)",
+        "parameters": [
+          {
+            "label": "List"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "top(List, Integer)",
+        "parameters": [
+          {
+            "label": "List"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "isnotnull",
+    "signatures": [
+      {
+        "label": "isnotnull(Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fewhere",
+    "signatures": [
+      {
+        "label": "fewhere(Map, Transform, Object)",
+        "parameters": [
+          {
+            "label": "Map"
+          },
+          {
+            "label": "Transform"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "fewhere(List, Transform, Object)",
+        "parameters": [
+          {
+            "label": "List"
+          },
+          {
+            "label": "Transform"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "fewhere(Window, Transform, Object)",
+        "parameters": [
+          {
+            "label": "Window"
+          },
+          {
+            "label": "Transform"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "fewhere(Iterator, Transform, Object)",
+        "parameters": [
+          {
+            "label": "Iterator"
+          },
+          {
+            "label": "Transform"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "fewhere(FeIterator, Transform, Object)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "Transform"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "fewhere(ColumnFeIterator, Transform, Object)",
+        "parameters": [
+          {
+            "label": "ColumnFeIterator"
+          },
+          {
+            "label": "Transform"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "where",
+    "signatures": [
+      {
+        "label": "where(Map, Transform, Object)",
+        "parameters": [
+          {
+            "label": "Map"
+          },
+          {
+            "label": "Transform"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "where(List, Transform, Object)",
+        "parameters": [
+          {
+            "label": "List"
+          },
+          {
+            "label": "Transform"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "where(Window, Transform, Object)",
+        "parameters": [
+          {
+            "label": "Window"
+          },
+          {
+            "label": "Transform"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "where(Iterator, Transform, Object)",
+        "parameters": [
+          {
+            "label": "Iterator"
+          },
+          {
+            "label": "Transform"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "where(FeIterator, Transform, Object)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "Transform"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "where(ColumnFeIterator, Transform, Object)",
+        "parameters": [
+          {
+            "label": "ColumnFeIterator"
+          },
+          {
+            "label": "Transform"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "log2",
+    "signatures": [
+      {
+        "label": "log2(Long)",
+        "parameters": [
+          {
+            "label": "Long"
+          }
+        ]
+      },
+      {
+        "label": "log2(Short)",
+        "parameters": [
+          {
+            "label": "Short"
+          }
+        ]
+      },
+      {
+        "label": "log2(Float)",
+        "parameters": [
+          {
+            "label": "Float"
+          }
+        ]
+      },
+      {
+        "label": "log2(Double)",
+        "parameters": [
+          {
+            "label": "Double"
+          }
+        ]
+      },
+      {
+        "label": "log2(String)",
+        "parameters": [
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "log2(Integer)",
+        "parameters": [
+          {
+            "label": "Integer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "is_in_window",
+    "signatures": [
+      {
+        "label": "is_in_window(Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "is_in_window(FeIterator)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          }
+        ]
+      },
+      {
+        "label": "is_in_window(Object, List)",
+        "parameters": [
+          {
+            "label": "Object"
+          },
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "is_in_window(Object, Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "is_in_window(Object, FeIterator)",
+        "parameters": [
+          {
+            "label": "Object"
+          },
+          {
+            "label": "FeIterator"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "key",
+    "signatures": [
+      {
+        "label": "key(Map)",
+        "parameters": [
+          {
+            "label": "Map"
+          }
+        ]
+      },
+      {
+        "label": "key(Window)",
+        "parameters": [
+          {
+            "label": "Window"
+          }
+        ]
+      },
+      {
+        "label": "key(Map$Entry)",
+        "parameters": [
+          {
+            "label": "Map$Entry"
+          }
+        ]
+      },
+      {
+        "label": "key(FeIterator)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "seq",
+    "signatures": [
+      {
+        "label": "seq(List, String)",
+        "parameters": [
+          {
+            "label": "List"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "seq(FeIterator, String)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "timestamp",
+    "signatures": [
+      {
+        "label": "timestamp(Map)",
+        "parameters": [
+          {
+            "label": "Map"
+          }
+        ]
+      },
+      {
+        "label": "timestamp(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "timestamp(Date)",
+        "parameters": [
+          {
+            "label": "Date"
+          }
+        ]
+      },
+      {
+        "label": "timestamp(Date)",
+        "parameters": [
+          {
+            "label": "Date"
+          }
+        ]
+      },
+      {
+        "label": "timestamp(String)",
+        "parameters": [
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "timestamp(Number)",
+        "parameters": [
+          {
+            "label": "Number"
+          }
+        ]
+      },
+      {
+        "label": "timestamp(String)",
+        "parameters": [
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "timestamp(Number)",
+        "parameters": [
+          {
+            "label": "Number"
+          }
+        ]
+      },
+      {
+        "label": "timestamp(DateTime)",
+        "parameters": [
+          {
+            "label": "DateTime"
+          }
+        ]
+      },
+      {
+        "label": "timestamp(DateTime)",
+        "parameters": [
+          {
+            "label": "DateTime"
+          }
+        ]
+      },
+      {
+        "label": "timestamp(Map, String)",
+        "parameters": [
+          {
+            "label": "Map"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "timestamp(List, String)",
+        "parameters": [
+          {
+            "label": "List"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "timestamp(String, String)",
+        "parameters": [
+          {
+            "label": "String"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "set",
+    "signatures": [
+      {
+        "label": "set(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "set(FeIterator)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "max",
+    "signatures": [
+      {
+        "label": "max(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "max(FeIterator)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          }
+        ]
+      },
+      {
+        "label": "max(List, Number)",
+        "parameters": [
+          {
+            "label": "List"
+          },
+          {
+            "label": "Number"
+          }
+        ]
+      },
+      {
+        "label": "max(FeIterator, Number)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "Number"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "sec_diff",
+    "signatures": [
+      {
+        "label": "sec_diff(Object, Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "sec_diff(DateTime, DateTime)",
+        "parameters": [
+          {
+            "label": "DateTime"
+          },
+          {
+            "label": "DateTime"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "shortint",
+    "signatures": [
+      {
+        "label": "shortint(Map)",
+        "parameters": [
+          {
+            "label": "Map"
+          }
+        ]
+      },
+      {
+        "label": "shortint(Date)",
+        "parameters": [
+          {
+            "label": "Date"
+          }
+        ]
+      },
+      {
+        "label": "shortint(Date)",
+        "parameters": [
+          {
+            "label": "Date"
+          }
+        ]
+      },
+      {
+        "label": "shortint(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "shortint(String)",
+        "parameters": [
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "shortint(Number)",
+        "parameters": [
+          {
+            "label": "Number"
+          }
+        ]
+      },
+      {
+        "label": "shortint(Number)",
+        "parameters": [
+          {
+            "label": "Number"
+          }
+        ]
+      },
+      {
+        "label": "shortint(String)",
+        "parameters": [
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "shortint(DateTime)",
+        "parameters": [
+          {
+            "label": "DateTime"
+          }
+        ]
+      },
+      {
+        "label": "shortint(DateTime)",
+        "parameters": [
+          {
+            "label": "DateTime"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "timediff",
+    "signatures": [
+      {
+        "label": "timediff(List, List)",
+        "parameters": [
+          {
+            "label": "List"
+          },
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "timediff(Object, Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "timediff(DateTime, DateTime)",
+        "parameters": [
+          {
+            "label": "DateTime"
+          },
+          {
+            "label": "DateTime"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "column",
+    "signatures": [
+      {
+        "label": "column(Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "column(Object, String, Integer)",
+        "parameters": [
+          {
+            "label": "Object"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "column(Collection, String, Integer)",
+        "parameters": [
+          {
+            "label": "Collection"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "column(Object, String, String, Integer)",
+        "parameters": [
+          {
+            "label": "Object"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "column(Collection, String, String, Integer)",
+        "parameters": [
+          {
+            "label": "Collection"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "lead",
+    "signatures": [
+      {
+        "label": "lead(List, Integer)",
+        "parameters": [
+          {
+            "label": "List"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "lead(FeIterator, Integer)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "abs",
+    "signatures": [
+      {
+        "label": "abs(Long)",
+        "parameters": [
+          {
+            "label": "Long"
+          }
+        ]
+      },
+      {
+        "label": "abs(Short)",
+        "parameters": [
+          {
+            "label": "Short"
+          }
+        ]
+      },
+      {
+        "label": "abs(Float)",
+        "parameters": [
+          {
+            "label": "Float"
+          }
+        ]
+      },
+      {
+        "label": "abs(Double)",
+        "parameters": [
+          {
+            "label": "Double"
+          }
+        ]
+      },
+      {
+        "label": "abs(Integer)",
+        "parameters": [
+          {
+            "label": "Integer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "concat_str",
+    "signatures": [
+      {
+        "label": "concat_str(String, String, String)",
+        "parameters": [
+          {
+            "label": "String"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "concat_str(FeIterator, FeIterator, String)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "concat_str(FeIterator, FeIterator, FeIterator, String)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "first",
+    "signatures": [
+      {
+        "label": "first(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "first(FeIterator)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "date",
+    "signatures": [
+      {
+        "label": "date(Map)",
+        "parameters": [
+          {
+            "label": "Map"
+          }
+        ]
+      },
+      {
+        "label": "date(Date)",
+        "parameters": [
+          {
+            "label": "Date"
+          }
+        ]
+      },
+      {
+        "label": "date(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "date(Date)",
+        "parameters": [
+          {
+            "label": "Date"
+          }
+        ]
+      },
+      {
+        "label": "date(String)",
+        "parameters": [
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "date(Number)",
+        "parameters": [
+          {
+            "label": "Number"
+          }
+        ]
+      },
+      {
+        "label": "date(String)",
+        "parameters": [
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "date(Number)",
+        "parameters": [
+          {
+            "label": "Number"
+          }
+        ]
+      },
+      {
+        "label": "date(DateTime)",
+        "parameters": [
+          {
+            "label": "DateTime"
+          }
+        ]
+      },
+      {
+        "label": "date(DateTime)",
+        "parameters": [
+          {
+            "label": "DateTime"
+          }
+        ]
+      },
+      {
+        "label": "date(List, String)",
+        "parameters": [
+          {
+            "label": "List"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "date(String, String)",
+        "parameters": [
+          {
+            "label": "String"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "get_circle_distance",
+    "signatures": [
+      {
+        "label": "get_circle_distance(String, String)",
+        "parameters": [
+          {
+            "label": "String"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "get_circle_distance(Object, Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "get_circle_distance(Object, Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "get_circle_distance(RegionAddress, RegionAddress)",
+        "parameters": [
+          {
+            "label": "RegionAddress"
+          },
+          {
+            "label": "RegionAddress"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "distinct_count",
+    "signatures": [
+      {
+        "label": "distinct_count(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "distinct_count(Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "distinct_count(FeIterator)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          }
+        ]
+      },
+      {
+        "label": "distinct_count(Object, Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "float",
+    "signatures": [
+      {
+        "label": "float(Map)",
+        "parameters": [
+          {
+            "label": "Map"
+          }
+        ]
+      },
+      {
+        "label": "float(Date)",
+        "parameters": [
+          {
+            "label": "Date"
+          }
+        ]
+      },
+      {
+        "label": "float(Date)",
+        "parameters": [
+          {
+            "label": "Date"
+          }
+        ]
+      },
+      {
+        "label": "float(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "float(String)",
+        "parameters": [
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "float(Number)",
+        "parameters": [
+          {
+            "label": "Number"
+          }
+        ]
+      },
+      {
+        "label": "float(String)",
+        "parameters": [
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "float(Number)",
+        "parameters": [
+          {
+            "label": "Number"
+          }
+        ]
+      },
+      {
+        "label": "float(DateTime)",
+        "parameters": [
+          {
+            "label": "DateTime"
+          }
+        ]
+      },
+      {
+        "label": "float(DateTime)",
+        "parameters": [
+          {
+            "label": "DateTime"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "second",
+    "signatures": [
+      {
+        "label": "second(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "second(Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "second(DateTime)",
+        "parameters": [
+          {
+            "label": "DateTime"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "split",
+    "signatures": [
+      {
+        "label": "split(String, String)",
+        "parameters": [
+          {
+            "label": "String"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "split(FeIterator, String)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "split(String, String, String)",
+        "parameters": [
+          {
+            "label": "String"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "split(FeIterator, String, String)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "lineartrans",
+    "signatures": [
+      {
+        "label": "lineartrans(List, Number, Number)",
+        "parameters": [
+          {
+            "label": "List"
+          },
+          {
+            "label": "Number"
+          },
+          {
+            "label": "Number"
+          }
+        ]
+      },
+      {
+        "label": "lineartrans(List, String, String)",
+        "parameters": [
+          {
+            "label": "List"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "lineartrans(Number, String, String)",
+        "parameters": [
+          {
+            "label": "Number"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "lineartrans(Number, Number, Number)",
+        "parameters": [
+          {
+            "label": "Number"
+          },
+          {
+            "label": "Number"
+          },
+          {
+            "label": "Number"
+          }
+        ]
+      },
+      {
+        "label": "lineartrans(FeIterator, Number, Number)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "Number"
+          },
+          {
+            "label": "Number"
+          }
+        ]
+      },
+      {
+        "label": "lineartrans(FeIterator, String, String)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "lineartrans(List, Number, Number, Integer)",
+        "parameters": [
+          {
+            "label": "List"
+          },
+          {
+            "label": "Number"
+          },
+          {
+            "label": "Number"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "lineartrans(List, String, String, Integer)",
+        "parameters": [
+          {
+            "label": "List"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "lineartrans(Number, Number, Number, Integer)",
+        "parameters": [
+          {
+            "label": "Number"
+          },
+          {
+            "label": "Number"
+          },
+          {
+            "label": "Number"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "lineartrans(Number, String, String, Integer)",
+        "parameters": [
+          {
+            "label": "Number"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "lineartrans(FeIterator, Number, Number, Integer)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "Number"
+          },
+          {
+            "label": "Number"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "lineartrans(FeIterator, String, String, Integer)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "get_pairs",
+    "signatures": [
+      {
+        "label": "get_pairs(Map)",
+        "parameters": [
+          {
+            "label": "Map"
+          }
+        ]
+      },
+      {
+        "label": "get_pairs(FeIterator)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          }
+        ]
+      },
+      {
+        "label": "get_pairs(TempWindow)",
+        "parameters": [
+          {
+            "label": "TempWindow"
+          }
+        ]
+      },
+      {
+        "label": "get_pairs(Map, String)",
+        "parameters": [
+          {
+            "label": "Map"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "get_pairs(TempWindow, String)",
+        "parameters": [
+          {
+            "label": "TempWindow"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "get_pairs(FeIterator, String)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "continuous",
+    "signatures": [
+      {
+        "label": "continuous(Map, String, Integer)",
+        "parameters": [
+          {
+            "label": "Map"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "continuous(Pair, String, Integer)",
+        "parameters": [
+          {
+            "label": "Pair"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "continuous(Number, String, Integer)",
+        "parameters": [
+          {
+            "label": "Number"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "continuous(Collection, String, Integer)",
+        "parameters": [
+          {
+            "label": "Collection"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "continuous(Map, Integer, Integer, String, Integer)",
+        "parameters": [
+          {
+            "label": "Map"
+          },
+          {
+            "label": "Integer"
+          },
+          {
+            "label": "Integer"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "continuous(Number, Integer, Integer, String, Integer)",
+        "parameters": [
+          {
+            "label": "Number"
+          },
+          {
+            "label": "Integer"
+          },
+          {
+            "label": "Integer"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "continuous(Collection, Integer, Integer, String, Integer)",
+        "parameters": [
+          {
+            "label": "Collection"
+          },
+          {
+            "label": "Integer"
+          },
+          {
+            "label": "Integer"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "day",
+    "signatures": [
+      {
+        "label": "day(Date)",
+        "parameters": [
+          {
+            "label": "Date"
+          }
+        ]
+      },
+      {
+        "label": "day(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "day(DateTime)",
+        "parameters": [
+          {
+            "label": "DateTime"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "combine",
+    "signatures": [
+      {
+        "label": "combine(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "combine(Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "combine(FeIterator)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "last",
+    "signatures": [
+      {
+        "label": "last(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "last(Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "last(FeIterator)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          }
+        ]
+      },
+      {
+        "label": "last(Object, Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "count",
+    "signatures": [
+      {
+        "label": "count(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "count(FeIterator)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          }
+        ]
+      },
+      {
+        "label": "count(Object, List)",
+        "parameters": [
+          {
+            "label": "Object"
+          },
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "count(Object, FeIterator)",
+        "parameters": [
+          {
+            "label": "Object"
+          },
+          {
+            "label": "FeIterator"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "binary_label",
+    "signatures": [
+      {
+        "label": "binary_label(Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "binary_label(Object, String, Integer)",
+        "parameters": [
+          {
+            "label": "Object"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "entropy_of_window",
+    "signatures": [
+      {
+        "label": "entropy_of_window(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "entropy_of_window(FeIterator)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "sort",
+    "signatures": [
+      {
+        "label": "sort(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "sort(List, boolean)",
+        "parameters": [
+          {
+            "label": "List"
+          },
+          {
+            "label": "boolean"
+          }
+        ]
+      },
+      {
+        "label": "sort(Map, int, boolean)",
+        "parameters": [
+          {
+            "label": "Map"
+          },
+          {
+            "label": "int"
+          },
+          {
+            "label": "boolean"
+          }
+        ]
+      },
+      {
+        "label": "sort(FeIterator, int, boolean)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "int"
+          },
+          {
+            "label": "boolean"
+          }
+        ]
+      },
+      {
+        "label": "sort(TempWindow, int, boolean)",
+        "parameters": [
+          {
+            "label": "TempWindow"
+          },
+          {
+            "label": "int"
+          },
+          {
+            "label": "boolean"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "bucketize",
+    "signatures": [
+      {
+        "label": "bucketize(List, String, String, String, String)",
+        "parameters": [
+          {
+            "label": "List"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "bucketize(Number, String, String, String, String)",
+        "parameters": [
+          {
+            "label": "Number"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "discrete",
+    "signatures": [
+      {
+        "label": "discrete(Map, String, Integer)",
+        "parameters": [
+          {
+            "label": "Map"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "discrete(Object, String, Integer)",
+        "parameters": [
+          {
+            "label": "Object"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "discrete(Collection, String, Integer)",
+        "parameters": [
+          {
+            "label": "Collection"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "discrete(FeIterator, String, Integer)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "discrete(Map, Integer, Integer, String, Integer)",
+        "parameters": [
+          {
+            "label": "Map"
+          },
+          {
+            "label": "Integer"
+          },
+          {
+            "label": "Integer"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "discrete(Object, Integer, Integer, String, Integer)",
+        "parameters": [
+          {
+            "label": "Object"
+          },
+          {
+            "label": "Integer"
+          },
+          {
+            "label": "Integer"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "discrete(Collection, Integer, Integer, String, Integer)",
+        "parameters": [
+          {
+            "label": "Collection"
+          },
+          {
+            "label": "Integer"
+          },
+          {
+            "label": "Integer"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "discrete(FeIterator, Integer, Integer, String, Integer)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "Integer"
+          },
+          {
+            "label": "Integer"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "month",
+    "signatures": [
+      {
+        "label": "month(Date)",
+        "parameters": [
+          {
+            "label": "Date"
+          }
+        ]
+      },
+      {
+        "label": "month(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "month(DateTime)",
+        "parameters": [
+          {
+            "label": "DateTime"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "decimal",
+    "signatures": [
+      {
+        "label": "decimal(Map)",
+        "parameters": [
+          {
+            "label": "Map"
+          }
+        ]
+      },
+      {
+        "label": "decimal(Date)",
+        "parameters": [
+          {
+            "label": "Date"
+          }
+        ]
+      },
+      {
+        "label": "decimal(Date)",
+        "parameters": [
+          {
+            "label": "Date"
+          }
+        ]
+      },
+      {
+        "label": "decimal(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "decimal(String)",
+        "parameters": [
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "decimal(Number)",
+        "parameters": [
+          {
+            "label": "Number"
+          }
+        ]
+      },
+      {
+        "label": "decimal(String)",
+        "parameters": [
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "decimal(Number)",
+        "parameters": [
+          {
+            "label": "Number"
+          }
+        ]
+      },
+      {
+        "label": "decimal(DateTime)",
+        "parameters": [
+          {
+            "label": "DateTime"
+          }
+        ]
+      },
+      {
+        "label": "decimal(DateTime)",
+        "parameters": [
+          {
+            "label": "DateTime"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "max_digit",
+    "signatures": []
+  },
+  {
+    "name": "regression_label",
+    "signatures": [
+      {
+        "label": "regression_label(Number)",
+        "parameters": [
+          {
+            "label": "Number"
+          }
+        ]
+      },
+      {
+        "label": "regression_label(Number, String, Integer)",
+        "parameters": [
+          {
+            "label": "Number"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "getkey",
+    "signatures": [
+      {
+        "label": "getkey(Map)",
+        "parameters": [
+          {
+            "label": "Map"
+          }
+        ]
+      },
+      {
+        "label": "getkey(Window)",
+        "parameters": [
+          {
+            "label": "Window"
+          }
+        ]
+      },
+      {
+        "label": "getkey(Map$Entry)",
+        "parameters": [
+          {
+            "label": "Map$Entry"
+          }
+        ]
+      },
+      {
+        "label": "getkey(FeIterator)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "get_values",
+    "signatures": [
+      {
+        "label": "get_values(Map)",
+        "parameters": [
+          {
+            "label": "Map"
+          }
+        ]
+      },
+      {
+        "label": "get_values(TempWindow)",
+        "parameters": [
+          {
+            "label": "TempWindow"
+          }
+        ]
+      },
+      {
+        "label": "get_values(FeIterator)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "string",
+    "signatures": [
+      {
+        "label": "string(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "string(Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "string(Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "string(Date, String)",
+        "parameters": [
+          {
+            "label": "Date"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "first_of_window",
+    "signatures": [
+      {
+        "label": "first_of_window(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "first_of_window(FeIterator)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "keys",
+    "signatures": [
+      {
+        "label": "keys(Map)",
+        "parameters": [
+          {
+            "label": "Map"
+          }
+        ]
+      },
+      {
+        "label": "keys(Window)",
+        "parameters": [
+          {
+            "label": "Window"
+          }
+        ]
+      },
+      {
+        "label": "keys(Map$Entry)",
+        "parameters": [
+          {
+            "label": "Map$Entry"
+          }
+        ]
+      },
+      {
+        "label": "keys(FeIterator)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "values",
+    "signatures": [
+      {
+        "label": "values(Map)",
+        "parameters": [
+          {
+            "label": "Map"
+          }
+        ]
+      },
+      {
+        "label": "values(TempWindow)",
+        "parameters": [
+          {
+            "label": "TempWindow"
+          }
+        ]
+      },
+      {
+        "label": "values(FeIterator)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "multiclass_label",
+    "signatures": [
+      {
+        "label": "multiclass_label(Number)",
+        "parameters": [
+          {
+            "label": "Number"
+          }
+        ]
+      },
+      {
+        "label": "multiclass_label(Number, String, Integer)",
+        "parameters": [
+          {
+            "label": "Number"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "substring",
+    "signatures": [
+      {
+        "label": "substring(String, Integer)",
+        "parameters": [
+          {
+            "label": "String"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "substring(FeIterator, Integer)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "substring(String, Integer, Integer)",
+        "parameters": [
+          {
+            "label": "String"
+          },
+          {
+            "label": "Integer"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "substring(FeIterator, Integer, Integer)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "Integer"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "dayofmonth",
+    "signatures": [
+      {
+        "label": "dayofmonth(Date)",
+        "parameters": [
+          {
+            "label": "Date"
+          }
+        ]
+      },
+      {
+        "label": "dayofmonth(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "dayofmonth(DateTime)",
+        "parameters": [
+          {
+            "label": "DateTime"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "avg",
+    "signatures": [
+      {
+        "label": "avg(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "avg(Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "avg(FeIterator)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          }
+        ]
+      },
+      {
+        "label": "avg(List, Number)",
+        "parameters": [
+          {
+            "label": "List"
+          },
+          {
+            "label": "Number"
+          }
+        ]
+      },
+      {
+        "label": "avg(Object, Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "avg(FeIterator, Number)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "Number"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "hour",
+    "signatures": [
+      {
+        "label": "hour(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "hour(Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "hour(DateTime)",
+        "parameters": [
+          {
+            "label": "DateTime"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "beta0",
+    "signatures": []
+  },
+  {
+    "name": "count_of_window",
+    "signatures": [
+      {
+        "label": "count_of_window(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "count_of_window(FeIterator)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          }
+        ]
+      },
+      {
+        "label": "count_of_window(Object, List)",
+        "parameters": [
+          {
+            "label": "Object"
+          },
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "count_of_window(Object, FeIterator)",
+        "parameters": [
+          {
+            "label": "Object"
+          },
+          {
+            "label": "FeIterator"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fegroup",
+    "signatures": [
+      {
+        "label": "fegroup(List, Transform, Object)",
+        "parameters": [
+          {
+            "label": "List"
+          },
+          {
+            "label": "Transform"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "fegroup(Window, Transform, Object)",
+        "parameters": [
+          {
+            "label": "Window"
+          },
+          {
+            "label": "Transform"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "fegroup(Iterator, Transform, Object)",
+        "parameters": [
+          {
+            "label": "Iterator"
+          },
+          {
+            "label": "Transform"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "fegroup(FeIterator, Transform, Object)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "Transform"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "current_timestamp",
+    "signatures": []
+  },
+  {
+    "name": "now",
+    "signatures": []
+  },
+  {
+    "name": "ifnull",
+    "signatures": [
+      {
+        "label": "ifnull(Object, Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "divide",
+    "signatures": [
+      {
+        "label": "divide(Number, Integer)",
+        "parameters": [
+          {
+            "label": "Number"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "floor",
+    "signatures": [
+      {
+        "label": "floor(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "floor(Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "floor(Number)",
+        "parameters": [
+          {
+            "label": "Number"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "amt_bin",
+    "signatures": [
+      {
+        "label": "amt_bin(Double)",
+        "parameters": [
+          {
+            "label": "Double"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "bigint",
+    "signatures": [
+      {
+        "label": "bigint(Map)",
+        "parameters": [
+          {
+            "label": "Map"
+          }
+        ]
+      },
+      {
+        "label": "bigint(Date)",
+        "parameters": [
+          {
+            "label": "Date"
+          }
+        ]
+      },
+      {
+        "label": "bigint(Date)",
+        "parameters": [
+          {
+            "label": "Date"
+          }
+        ]
+      },
+      {
+        "label": "bigint(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "bigint(String)",
+        "parameters": [
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "bigint(Number)",
+        "parameters": [
+          {
+            "label": "Number"
+          }
+        ]
+      },
+      {
+        "label": "bigint(String)",
+        "parameters": [
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "bigint(Number)",
+        "parameters": [
+          {
+            "label": "Number"
+          }
+        ]
+      },
+      {
+        "label": "bigint(DateTime)",
+        "parameters": [
+          {
+            "label": "DateTime"
+          }
+        ]
+      },
+      {
+        "label": "bigint(DateTime)",
+        "parameters": [
+          {
+            "label": "DateTime"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "length",
+    "signatures": [
+      {
+        "label": "length(String)",
+        "parameters": [
+          {
+            "label": "String"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "label",
+    "signatures": [
+      {
+        "label": "label(Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "label(Object, String, Integer)",
+        "parameters": [
+          {
+            "label": "Object"
+          },
+          {
+            "label": "String"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "int",
+    "signatures": [
+      {
+        "label": "int(Map)",
+        "parameters": [
+          {
+            "label": "Map"
+          }
+        ]
+      },
+      {
+        "label": "int(Date)",
+        "parameters": [
+          {
+            "label": "Date"
+          }
+        ]
+      },
+      {
+        "label": "int(Date)",
+        "parameters": [
+          {
+            "label": "Date"
+          }
+        ]
+      },
+      {
+        "label": "int(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "int(String)",
+        "parameters": [
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "int(Number)",
+        "parameters": [
+          {
+            "label": "Number"
+          }
+        ]
+      },
+      {
+        "label": "int(Number)",
+        "parameters": [
+          {
+            "label": "Number"
+          }
+        ]
+      },
+      {
+        "label": "int(String)",
+        "parameters": [
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "int(DateTime)",
+        "parameters": [
+          {
+            "label": "DateTime"
+          }
+        ]
+      },
+      {
+        "label": "int(DateTime)",
+        "parameters": [
+          {
+            "label": "DateTime"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "wordseg",
+    "signatures": [
+      {
+        "label": "wordseg(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "wordseg(String)",
+        "parameters": [
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "wordseg(FeIterator)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "pair",
+    "signatures": [
+      {
+        "label": "pair(List, String)",
+        "parameters": [
+          {
+            "label": "List"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "pair(FeIterator, String)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "pair(Object, List, String)",
+        "parameters": [
+          {
+            "label": "Object"
+          },
+          {
+            "label": "List"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "pair(Object, FeIterator, String)",
+        "parameters": [
+          {
+            "label": "Object"
+          },
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "pair(FeIterator, FeIterator, String)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "String"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "minute",
+    "signatures": [
+      {
+        "label": "minute(List)",
+        "parameters": [
+          {
+            "label": "List"
+          }
+        ]
+      },
+      {
+        "label": "minute(Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "minute(DateTime)",
+        "parameters": [
+          {
+            "label": "DateTime"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "get_keys",
+    "signatures": [
+      {
+        "label": "get_keys(Map)",
+        "parameters": [
+          {
+            "label": "Map"
+          }
+        ]
+      },
+      {
+        "label": "get_keys(Window)",
+        "parameters": [
+          {
+            "label": "Window"
+          }
+        ]
+      },
+      {
+        "label": "get_keys(Map$Entry)",
+        "parameters": [
+          {
+            "label": "Map$Entry"
+          }
+        ]
+      },
+      {
+        "label": "get_keys(FeIterator)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "femap",
+    "signatures": [
+      {
+        "label": "femap(Map, Transform, Object)",
+        "parameters": [
+          {
+            "label": "Map"
+          },
+          {
+            "label": "Transform"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "femap(List, Transform, Object)",
+        "parameters": [
+          {
+            "label": "List"
+          },
+          {
+            "label": "Transform"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "femap(Window, Transform, Object)",
+        "parameters": [
+          {
+            "label": "Window"
+          },
+          {
+            "label": "Transform"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "femap(Iterator, Transform, Object)",
+        "parameters": [
+          {
+            "label": "Iterator"
+          },
+          {
+            "label": "Transform"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "femap(FeIterator, Transform, Object)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "Transform"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "get_latlng",
+    "signatures": [
+      {
+        "label": "get_latlng(Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "get_latlng(Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          }
+        ]
+      },
+      {
+        "label": "get_latlng(FeIterator)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          }
+        ]
+      },
+      {
+        "label": "get_latlng(RegionAddress)",
+        "parameters": [
+          {
+            "label": "RegionAddress"
+          }
+        ]
+      },
+      {
+        "label": "get_latlng(Object, Object)",
+        "parameters": [
+          {
+            "label": "Object"
+          },
+          {
+            "label": "Object"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "boolean",
+    "signatures": [
+      {
+        "label": "boolean(Long)",
+        "parameters": [
+          {
+            "label": "Long"
+          }
+        ]
+      },
+      {
+        "label": "boolean(Short)",
+        "parameters": [
+          {
+            "label": "Short"
+          }
+        ]
+      },
+      {
+        "label": "boolean(Float)",
+        "parameters": [
+          {
+            "label": "Float"
+          }
+        ]
+      },
+      {
+        "label": "boolean(Double)",
+        "parameters": [
+          {
+            "label": "Double"
+          }
+        ]
+      },
+      {
+        "label": "boolean(String)",
+        "parameters": [
+          {
+            "label": "String"
+          }
+        ]
+      },
+      {
+        "label": "boolean(Boolean)",
+        "parameters": [
+          {
+            "label": "Boolean"
+          }
+        ]
+      },
+      {
+        "label": "boolean(Integer)",
+        "parameters": [
+          {
+            "label": "Integer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "round",
+    "signatures": [
+      {
+        "label": "round(Long, Integer)",
+        "parameters": [
+          {
+            "label": "Long"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "round(List, Integer)",
+        "parameters": [
+          {
+            "label": "List"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "round(Short, Integer)",
+        "parameters": [
+          {
+            "label": "Short"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "round(Float, Integer)",
+        "parameters": [
+          {
+            "label": "Float"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "round(Double, Integer)",
+        "parameters": [
+          {
+            "label": "Double"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "round(Integer, Integer)",
+        "parameters": [
+          {
+            "label": "Integer"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      },
+      {
+        "label": "round(FeIterator, Integer)",
+        "parameters": [
+          {
+            "label": "FeIterator"
+          },
+          {
+            "label": "Integer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "dayofweek",
+    "signatures": [
+      {
+        "label": "dayofweek(Date)",
+        "parameters": [
+          {
+            "label": "Date"
+          }
+        ]
+      },
+      {
+        "label": "dayofweek(DateTime)",
+        "parameters": [
+          {
+            "label": "DateTime"
+          }
+        ]
+      }
+    ]
+  }
+]

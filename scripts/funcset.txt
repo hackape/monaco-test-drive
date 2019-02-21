@@ -1,0 +1,644 @@
+name:isnull
+    java.lang.Object
+
+name:year
+    java.sql.Date
+    org.joda.time.DateTime
+    java.util.List
+
+name:weekday
+    org.joda.time.DateTime
+    java.sql.Date
+
+name:if_not_enough
+    java.util.List,java.lang.Integer,java.lang.Object
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,java.lang.Integer,java.lang.Object
+
+name:eliminatechar
+    java.lang.String,java.lang.String
+    java.util.List,java.lang.String
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,java.lang.String
+
+name:output
+    java.lang.Object
+    java.lang.Object,java.lang.String,java.lang.Integer
+
+name:quantile
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,java.lang.Integer
+    java.util.List,java.lang.Integer
+
+name:if
+    java.lang.Boolean,java.lang.Object,java.lang.Object
+
+name:std
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator
+    java.util.List
+    java.lang.Number
+
+name:mapping
+    java.lang.Short,java.lang.String
+    java.lang.Float,java.lang.String
+    java.lang.Double,java.lang.String
+    org.joda.time.DateTime,java.lang.String
+    java.lang.Long,java.lang.String
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,java.lang.String
+    java.lang.String,java.lang.String
+    java.lang.Integer,java.lang.String
+    java.util.List,java.lang.String
+
+name:splitbykey
+    java.lang.String,java.lang.String,java.lang.String
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,java.lang.String,java.lang.String
+
+name:var
+    java.util.List
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator
+
+name:double
+    org.joda.time.DateTime
+    java.sql.Date
+    java.sql.Date
+    java.lang.String
+    java.lang.Number
+    java.lang.Number
+    java.lang.String
+    org.joda.time.DateTime
+    java.util.Map
+    java.util.List
+
+name:last_of_window
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator
+    java.util.List
+    java.lang.Object
+    java.lang.Object,java.lang.Object
+
+name:get_distance
+    com._4paradigm.kg.planetgraph.lib.RegionAddress,com._4paradigm.kg.planetgraph.lib.RegionAddress
+    java.lang.Object,java.lang.Object
+    java.lang.Object,java.lang.Object
+    java.lang.String,java.lang.String
+
+name:get_address
+    java.lang.String
+    java.lang.Object
+    java.lang.Object
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator
+    java.lang.Object,java.lang.Object
+
+name:substr
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,java.lang.Integer
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,java.lang.Integer,java.lang.Integer
+    java.lang.String,java.lang.Integer,java.lang.Integer
+    java.lang.String,java.lang.Integer
+
+name:dayofyear
+    java.sql.Date
+    org.joda.time.DateTime
+
+name:current_date
+
+
+name:slide
+    java.util.List,com._4paradigm.ferrari.funcset.base.TransformForMoreArgs,java.lang.Integer
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,com._4paradigm.ferrari.funcset.base.TransformForMoreArgs
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,com._4paradigm.ferrari.funcset.base.TransformForMoreArgs,java.lang.Integer
+    java.util.List,com._4paradigm.ferrari.funcset.base.TransformForMoreArgs
+
+name:longint
+    org.joda.time.DateTime
+    java.sql.Date
+    java.sql.Date
+    java.lang.String
+    java.lang.Number
+    java.lang.String
+    java.lang.Number
+    org.joda.time.DateTime
+    java.util.Map
+    java.util.List
+
+name:subtail
+    java.lang.String,java.lang.Integer,java.lang.Integer
+
+name:log
+    java.lang.Object
+    java.lang.Number,java.lang.Integer
+    java.lang.Number
+    java.util.List
+    java.lang.Object,java.lang.Object
+
+name:log10
+    java.lang.Double
+    java.lang.Long
+    java.lang.Integer
+    java.lang.Short
+    java.lang.Float
+    java.lang.String
+
+name:range
+    com._4paradigm.ferrari.core.basic.window.impl.TempWindow,java.lang.Integer,java.lang.Integer
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,java.lang.Integer,java.lang.Integer
+    java.util.List,java.lang.Integer,java.lang.Integer
+    java.util.Map,java.lang.Integer,java.lang.Integer
+
+name:get_speed
+    java.util.List,java.util.List
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,com._4paradigm.ferrari.core.basic.iterator.FeIterator
+    com._4paradigm.kg.planetgraph.lib.RegionAddress,com._4paradigm.kg.planetgraph.lib.RegionAddress,java.lang.Integer
+
+name:sum
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,java.lang.Number
+    java.lang.Object
+    java.util.List,java.lang.Number
+    java.util.List
+    java.lang.Object,java.lang.Object
+
+name:isnan
+    java.lang.String
+    java.lang.Double
+
+name:datediff
+    java.util.List,java.util.List
+    java.sql.Date,java.sql.Date
+
+name:smallint
+    org.joda.time.DateTime
+    java.sql.Date
+    java.sql.Date
+    java.lang.String
+    java.lang.Number
+    java.lang.Number
+    java.lang.String
+    org.joda.time.DateTime
+    java.util.Map
+    java.util.List
+
+name:min
+    java.util.List,java.lang.Number
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,java.lang.Number
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator
+    java.util.List
+
+name:entropy
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator
+    java.util.List
+
+name:top
+    java.util.List,java.lang.String
+    java.util.List,java.lang.Integer
+
+name:isnotnull
+    java.lang.Object
+
+name:fewhere
+    com._4paradigm.ferrari.core.basic.iterator.impl.ColumnFeIterator,com._4paradigm.ferrari.core.basic.function.Transform,java.lang.Object
+    java.util.Map,com._4paradigm.ferrari.core.basic.function.Transform,java.lang.Object
+    java.util.Iterator,com._4paradigm.ferrari.core.basic.function.Transform,java.lang.Object
+    java.util.List,com._4paradigm.ferrari.core.basic.function.Transform,java.lang.Object
+    com._4paradigm.ferrari.core.basic.window.Window,com._4paradigm.ferrari.core.basic.function.Transform,java.lang.Object
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,com._4paradigm.ferrari.core.basic.function.Transform,java.lang.Object
+
+name:where
+    com._4paradigm.ferrari.core.basic.iterator.impl.ColumnFeIterator,com._4paradigm.ferrari.core.basic.function.Transform,java.lang.Object
+    java.util.Map,com._4paradigm.ferrari.core.basic.function.Transform,java.lang.Object
+    java.util.Iterator,com._4paradigm.ferrari.core.basic.function.Transform,java.lang.Object
+    java.util.List,com._4paradigm.ferrari.core.basic.function.Transform,java.lang.Object
+    com._4paradigm.ferrari.core.basic.window.Window,com._4paradigm.ferrari.core.basic.function.Transform,java.lang.Object
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,com._4paradigm.ferrari.core.basic.function.Transform,java.lang.Object
+
+name:log2
+    java.lang.Double
+    java.lang.Long
+    java.lang.Integer
+    java.lang.Short
+    java.lang.Float
+    java.lang.String
+
+name:is_in_window
+    java.lang.Object,java.util.List
+    java.lang.Object,com._4paradigm.ferrari.core.basic.iterator.FeIterator
+    java.lang.Object
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator
+    java.lang.Object,java.lang.Object
+
+name:key
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator
+    java.util.Map$Entry
+    java.util.Map
+    com._4paradigm.ferrari.core.basic.window.Window
+
+name:seq
+    java.util.List,java.lang.String
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,java.lang.String
+
+name:timestamp
+    java.lang.String,java.lang.String
+    java.util.List,java.lang.String
+    java.sql.Date
+    org.joda.time.DateTime
+    java.lang.String
+    java.lang.Number
+    java.lang.Number
+    java.util.Map,java.lang.String
+    java.sql.Date
+    java.lang.String
+    org.joda.time.DateTime
+    java.util.Map
+    java.util.List
+
+name:set
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator
+    java.util.List
+
+name:max
+    java.util.List,java.lang.Number
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,java.lang.Number
+    java.util.List
+
+name:sec_diff
+    java.lang.Object,java.lang.Object
+    org.joda.time.DateTime,org.joda.time.DateTime
+
+name:shortint
+    org.joda.time.DateTime
+    java.sql.Date
+    java.sql.Date
+    java.lang.String
+    java.lang.Number
+    java.lang.Number
+    java.lang.String
+    org.joda.time.DateTime
+    java.util.Map
+    java.util.List
+
+name:timediff
+    java.lang.Object,java.lang.Object
+    org.joda.time.DateTime,org.joda.time.DateTime
+    java.util.List,java.util.List
+
+name:column
+    java.util.Collection,java.lang.String,java.lang.Integer
+    java.lang.Object,java.lang.String,java.lang.String,java.lang.Integer
+    java.util.Collection,java.lang.String,java.lang.String,java.lang.Integer
+    java.lang.Object,java.lang.String,java.lang.Integer
+    java.lang.Object
+
+name:lead
+    java.util.List,java.lang.Integer
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,java.lang.Integer
+
+name:abs
+    java.lang.Double
+    java.lang.Long
+    java.lang.Short
+    java.lang.Float
+    java.lang.Integer
+
+name:concat_str
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,com._4paradigm.ferrari.core.basic.iterator.FeIterator,com._4paradigm.ferrari.core.basic.iterator.FeIterator,java.lang.String
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,com._4paradigm.ferrari.core.basic.iterator.FeIterator,java.lang.String
+    java.lang.String,java.lang.String,java.lang.String
+
+name:first
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator
+    java.util.List
+
+name:date
+    java.sql.Date
+    java.util.List,java.lang.String
+    java.lang.String,java.lang.String
+    org.joda.time.DateTime
+    java.lang.String
+    java.lang.Number
+    java.lang.Number
+    java.lang.String
+    org.joda.time.DateTime
+    java.sql.Date
+    java.util.Map
+    java.util.List
+
+name:get_circle_distance
+    java.lang.String,java.lang.String
+    java.lang.Object,java.lang.Object
+    java.lang.Object,java.lang.Object
+    com._4paradigm.kg.planetgraph.lib.RegionAddress,com._4paradigm.kg.planetgraph.lib.RegionAddress
+
+name:distinct_count
+    java.lang.Object
+    java.util.List
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator
+    java.lang.Object,java.lang.Object
+
+name:float
+    org.joda.time.DateTime
+    java.sql.Date
+    java.sql.Date
+    java.lang.String
+    java.lang.Number
+    java.lang.String
+    org.joda.time.DateTime
+    java.lang.Number
+    java.util.Map
+    java.util.List
+
+name:second
+    java.lang.Object
+    org.joda.time.DateTime
+    java.util.List
+
+name:split
+    java.lang.String,java.lang.String,java.lang.String
+    java.lang.String,java.lang.String
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,java.lang.String,java.lang.String
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,java.lang.String
+
+name:lineartrans
+    java.util.List,java.lang.Number,java.lang.Number
+    java.lang.Number,java.lang.String,java.lang.String,java.lang.Integer
+    java.lang.Number,java.lang.String,java.lang.String
+    java.lang.Number,java.lang.Number,java.lang.Number,java.lang.Integer
+    java.util.List,java.lang.Number,java.lang.Number,java.lang.Integer
+    java.util.List,java.lang.String,java.lang.String
+    java.util.List,java.lang.String,java.lang.String,java.lang.Integer
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,java.lang.Number,java.lang.Number
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,java.lang.Number,java.lang.Number,java.lang.Integer
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,java.lang.String,java.lang.String
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,java.lang.String,java.lang.String,java.lang.Integer
+    java.lang.Number,java.lang.Number,java.lang.Number
+
+name:get_pairs
+    com._4paradigm.ferrari.core.basic.window.impl.TempWindow,java.lang.String
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,java.lang.String
+    java.util.Map,java.lang.String
+    java.util.Map
+    com._4paradigm.ferrari.core.basic.window.impl.TempWindow
+
+name:continuous
+    java.util.Collection,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Integer
+    java.util.Map,java.lang.String,java.lang.Integer
+    java.util.Map,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Integer
+    java.util.Collection,java.lang.String,java.lang.Integer
+    java.lang.Number,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Integer
+    java.lang.Number,java.lang.String,java.lang.Integer
+    org.apache.commons.lang3.tuple.Pair,java.lang.String,java.lang.Integer
+
+name:day
+    org.joda.time.DateTime
+    java.sql.Date
+    java.util.List
+
+name:combine
+    java.util.List
+    java.lang.Object
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator
+
+name:last
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator
+    java.util.List
+    java.lang.Object
+    java.lang.Object,java.lang.Object
+
+name:count
+    java.lang.Object,com._4paradigm.ferrari.core.basic.iterator.FeIterator
+    java.util.List
+    java.lang.Object,java.util.List
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator
+
+name:binary_label
+    java.lang.Object,java.lang.String,java.lang.Integer
+    java.lang.Object
+
+name:entropy_of_window
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator
+    java.util.List
+
+name:sort
+    java.util.Map,int,boolean
+    java.util.List,boolean
+    java.util.List
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,int,boolean
+    com._4paradigm.ferrari.core.basic.window.impl.TempWindow,int,boolean
+
+name:bucketize
+    java.lang.Number,java.lang.String,java.lang.String,java.lang.String,java.lang.String
+    java.util.List,java.lang.String,java.lang.String,java.lang.String,java.lang.String
+
+name:discrete
+    java.util.Map,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Integer
+    java.util.Map,java.lang.String,java.lang.Integer
+    java.lang.Object,java.lang.String,java.lang.Integer
+    java.util.Collection,java.lang.String,java.lang.Integer
+    java.util.Collection,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Integer
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,java.lang.String,java.lang.Integer
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Integer
+    java.lang.Object,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Integer
+
+name:month
+    java.sql.Date
+    org.joda.time.DateTime
+    java.util.List
+
+name:decimal
+    org.joda.time.DateTime
+    java.sql.Date
+    java.sql.Date
+    java.lang.String
+    java.lang.Number
+    java.lang.String
+    java.lang.Number
+    org.joda.time.DateTime
+    java.util.Map
+    java.util.List
+
+name:max_digit
+
+name:regression_label
+    java.lang.Number,java.lang.String,java.lang.Integer
+    java.lang.Number
+
+name:getkey
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator
+    java.util.Map$Entry
+    java.util.Map
+    com._4paradigm.ferrari.core.basic.window.Window
+
+name:get_values
+    com._4paradigm.ferrari.core.basic.window.impl.TempWindow
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator
+    java.util.Map
+
+name:string
+    java.lang.Object
+    java.sql.Date,java.lang.String
+    java.lang.Object
+    java.util.List
+
+name:first_of_window
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator
+    java.util.List
+
+name:keys
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator
+    java.util.Map$Entry
+    java.util.Map
+    com._4paradigm.ferrari.core.basic.window.Window
+
+name:values
+    com._4paradigm.ferrari.core.basic.window.impl.TempWindow
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator
+    java.util.Map
+
+name:multiclass_label
+    java.lang.Number,java.lang.String,java.lang.Integer
+    java.lang.Number
+
+name:substring
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,java.lang.Integer
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,java.lang.Integer,java.lang.Integer
+    java.lang.String,java.lang.Integer,java.lang.Integer
+    java.lang.String,java.lang.Integer
+
+name:dayofmonth
+    org.joda.time.DateTime
+    java.sql.Date
+    java.util.List
+
+name:avg
+    java.util.List,java.lang.Number
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,java.lang.Number
+    java.lang.Object
+    java.util.List
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator
+    java.lang.Object,java.lang.Object
+
+name:hour
+    java.lang.Object
+    org.joda.time.DateTime
+    java.util.List
+
+name:beta0
+
+
+name:count_of_window
+    java.lang.Object,com._4paradigm.ferrari.core.basic.iterator.FeIterator
+    java.util.List
+    java.lang.Object,java.util.List
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator
+
+name:fegroup
+    com._4paradigm.ferrari.core.basic.window.Window,com._4paradigm.ferrari.core.basic.function.Transform,java.lang.Object
+    java.util.Iterator,com._4paradigm.ferrari.core.basic.function.Transform,java.lang.Object
+    java.util.List,com._4paradigm.ferrari.core.basic.function.Transform,java.lang.Object
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,com._4paradigm.ferrari.core.basic.function.Transform,java.lang.Object
+
+name:current_timestamp
+
+
+name:now
+
+
+name:ifnull
+    java.lang.Object,java.lang.Object
+
+name:divide
+    java.lang.Number,java.lang.Integer
+
+name:floor
+    java.lang.Object
+    java.lang.Number
+    java.util.List
+
+name:amt_bin
+    java.lang.Double
+
+name:bigint
+    org.joda.time.DateTime
+    java.sql.Date
+    java.sql.Date
+    java.lang.String
+    java.lang.Number
+    java.lang.String
+    java.lang.Number
+    org.joda.time.DateTime
+    java.util.Map
+    java.util.List
+
+name:length
+    java.lang.String
+
+name:label
+    java.lang.Object,java.lang.String,java.lang.Integer
+    java.lang.Object
+
+name:int
+    org.joda.time.DateTime
+    java.sql.Date
+    java.sql.Date
+    java.lang.String
+    java.lang.Number
+    java.lang.Number
+    org.joda.time.DateTime
+    java.lang.String
+    java.util.Map
+    java.util.List
+
+name:wordseg
+    java.lang.String
+    java.util.List
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator
+
+name:pair
+    java.util.List,java.lang.String
+    java.lang.Object,com._4paradigm.ferrari.core.basic.iterator.FeIterator,java.lang.String
+    java.lang.Object,java.util.List,java.lang.String
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,java.lang.String
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,com._4paradigm.ferrari.core.basic.iterator.FeIterator,java.lang.String
+
+name:minute
+    java.lang.Object
+    org.joda.time.DateTime
+    java.util.List
+
+name:get_keys
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator
+    java.util.Map$Entry
+    java.util.Map
+    com._4paradigm.ferrari.core.basic.window.Window
+
+name:femap
+    java.util.Map,com._4paradigm.ferrari.core.basic.function.Transform,java.lang.Object
+    java.util.Iterator,com._4paradigm.ferrari.core.basic.function.Transform,java.lang.Object
+    java.util.List,com._4paradigm.ferrari.core.basic.function.Transform,java.lang.Object
+    com._4paradigm.ferrari.core.basic.window.Window,com._4paradigm.ferrari.core.basic.function.Transform,java.lang.Object
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,com._4paradigm.ferrari.core.basic.function.Transform,java.lang.Object
+
+name:get_latlng
+    com._4paradigm.kg.planetgraph.lib.RegionAddress
+    java.lang.Object
+    java.lang.Object
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator
+    java.lang.Object,java.lang.Object
+
+name:boolean
+    java.lang.Short
+    java.lang.Long
+    java.lang.Float
+    java.lang.Double
+    java.lang.String
+    java.lang.Boolean
+    java.lang.Integer
+
+name:round
+    java.lang.Long,java.lang.Integer
+    java.lang.Short,java.lang.Integer
+    java.lang.Float,java.lang.Integer
+    java.lang.Double,java.lang.Integer
+    java.util.List,java.lang.Integer
+    com._4paradigm.ferrari.core.basic.iterator.FeIterator,java.lang.Integer
+    java.lang.Integer,java.lang.Integer
+
+name:dayofweek
+    org.joda.time.DateTime
+    java.sql.Date
