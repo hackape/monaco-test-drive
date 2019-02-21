@@ -2,28 +2,30 @@ const path = require("path");
 const webpack = require("webpack");
 const HtmlPlugin = require("html-webpack-plugin");
 
+const isProd = process.env.NODE_ENV === "production";
+
 /** @type {webpack.Configuration} */
 module.exports = {
-  mode: "development",
-  devtool: "cheap-module-source-map",
+  mode: isProd ? "production" : "development",
+  devtool: isProd ? undefined : "cheap-module-source-map",
   resolve: {
-    extensions: ['.ts', '.tsx', '.js', '.jsx']
+    extensions: [".ts", ".tsx", ".js", ".jsx"]
   },
   entry: {
     app: "./src/main.ts",
-    "editor.worker": "monaco-editor/esm/vs/editor/editor.worker.js",
+    "editor.worker": "monaco-editor/esm/vs/editor/editor.worker.js"
   },
   output: {
     globalObject: "self",
     filename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist")
   },
-  target: 'web',
+  target: "web",
   node: {
-      fs: 'empty',
-      child_process: 'empty',
-      net: 'empty',
-      crypto: 'empty'
+    fs: "empty",
+    child_process: "empty",
+    net: "empty",
+    crypto: "empty"
   },
   module: {
     rules: [
@@ -50,5 +52,8 @@ module.exports = {
       template: "./src/index.html"
     })
   ],
-  devServer: {}
+  devServer: {},
+  optimization: {
+    minimize: false
+  }
 };
